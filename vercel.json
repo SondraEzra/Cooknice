@@ -1,0 +1,37 @@
+{
+    "version": 2,
+    "framework": null,
+    "function": {
+        "api/index.php": {"runtime": "vercel-php@0.6.0"
+        }
+    },
+    "route": [
+        {
+            "src": "/(.*)",
+            "dest": "api/index.php"
+        }
+    ],
+    "env": {
+        "APP_ENV": "production",
+        "APP_DEBUG": "true",
+        "APP_URL": " ",
+        "APP_KEY": "base64:kwL27ixauvk7OnIdUJ0GZrIsQ48QeqUnN9qdOJSAu0Q=",
+        "DB_CONNECTION": "mysql",
+        "DB_HOST": "h3xd65.h.filess.io",
+        "DB_PORT": "3307",
+        "DB_DATABASE": "cooknice_variousbow",
+        "DB_USERNAME": "cooknice_variousbow",
+        "DB_PASSWORD": "849ed6c4b5d541e9fad721787a6442a02e2e0449",
+
+        "APP_CONFIG_CACHE": "/tmp/config.php",
+        "APP_EVENTS_CACHE": "/tmp/events.php",
+        "APP_PACKAGE_CACHE": "/tmp/packages.php",
+        "APP_ROUTE_CACHE": "/tmp/routes.php",
+        "APP_SERVICE_CACHE": "/tmp/services.php",
+        "VIEW_COMPILED_PATH": "/tmp/",
+
+        "CHACE_DRIVER": "array",
+        "LOG_CHANNEL": "stderr",
+        "SESSION_DRIVER": "cookie"
+    }
+}
