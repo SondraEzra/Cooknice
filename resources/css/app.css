@@ -1,0 +1,18 @@
+@import "tailwindcss";
+@source "../views";
+
+@import "tailwindcss";
+
+@theme {
+  --font-Poppins: "Poppins", sans-serif;
+  --color-background: #F9E2AF;
+}
+
+body {
+  font-family:Poppins, sans-serif;
+  background-color: var(--color-background);
+}
+
+.font-poppins {
+  font-family: var(--font-poppins);
+}
